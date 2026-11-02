@@ -4,7 +4,7 @@ setup(
     name="py-analysis-tool",
     version="1.0.0",
     description="Educational toolkit for inspecting Python bytecode and packaged applications",
-    author="SoraDev-ID",
+    author="SoraaaID",
     packages=find_packages(),
     python_requires=">=3.8",
     install_requires=[
