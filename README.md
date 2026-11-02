@@ -1,5 +1,5 @@
-[![test](https://github.com/SoraDev-ID/py-analysis-tool/actions/workflows/test.yml/badge.svg)](https://github.com/SoraDev-ID/py-analysis-tool/actions/workflows/test.yml)
-[![build-pycdc](https://github.com/SoraDev-ID/py-analysis-tool/actions/workflows/build-pycdc.yml/badge.svg)](https://github.com/SoraDev-ID/py-analysis-tool/actions/workflows/build-pycdc.yml)
+[![test](https://github.com/SoraaaID/py-analysis-tool/actions/workflows/test.yml/badge.svg)](https://github.com/SoraaaID/py-analysis-tool/actions/workflows/test.yml)
+[![build-pycdc](https://github.com/SoraaaID/py-analysis-tool/actions/workflows/build-pycdc.yml/badge.svg)](https://github.com/SoraaaID/py-analysis-tool/actions/workflows/build-pycdc.yml)
 
 # py-analysis-tool
 
@@ -13,7 +13,7 @@ Educational toolkit for inspecting Python bytecode and packaged application form
 ## Install
 
 ```bash
-git clone https://github.com/SoraDev-ID/py-analysis-tool.git
+git clone https://github.com/SoraaaID/py-analysis-tool.git
 cd py-analysis-tool
 python -m venv .venv
 .venv\Scripts\activate        # Windows
@@ -55,6 +55,16 @@ python -m py_analysis_tool.main app.exe -o out/
 # Recursive, verbose, HTML report
 python -m py_analysis_tool.main ./dist --recursive --verbose --report report.html
 ```
+
+## Example output
+
+CLI run:
+
+![CLI run](assets/demo-terminal.png)
+
+Generated HTML report (`--report`):
+
+![HTML report](assets/demo-report.png)
 
 ## CLI flags
 
